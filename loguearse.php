@@ -14,7 +14,7 @@
     <form action="login.php" method="POST">
       <input name="email" type="text" placeholder="Introduce tu correo electrónico">
       <input name="password" type="password" placeholder="Ingresa tu contraseña">
-      <input type="submit" value="Send">
+      <input type="submit" value="enviar">
     </form>
   </body>
 </html>
