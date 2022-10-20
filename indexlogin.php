@@ -7,7 +7,12 @@
     
   </head>
   <body>
-   
+     <header> 
+
+     <a href="indexlogin.php">your nameapp</a>
+     </header>
+
+
       <h1>Por favor ingresa o regístrate</h1>
 
       <a href="loguearse.php">iniciar sesion</a> or
