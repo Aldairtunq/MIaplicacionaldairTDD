@@ -1,4 +1,4 @@
 <header> 
 
-     <a href="indexlogin.php">Nombre app</a>
+<a href="indexlogin.php">Regresar Ala Pantalla principal</a>
      </header>

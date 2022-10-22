@@ -8,11 +8,7 @@
   </head>
   <body>
   <?php require 'otroscodigos/header.php' ?>
-     <header> 
-
-     <a href="indexlogin.php">Pantalla principal</a>
-     </header>
-
+     
 
       <h1>Por favor ingresa o regístrate</h1>
 
