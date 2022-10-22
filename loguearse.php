@@ -8,6 +8,7 @@
   </head>
   <body>
     
+  <?php require 'otroscodigos/header.php' ?>
 
     <h1>Login</h1>
  

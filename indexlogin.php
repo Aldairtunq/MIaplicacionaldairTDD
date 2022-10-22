@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>BIEVENIDOS</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
+  <?php require 'otroscodigos/header.php' ?>
      <header> 
 
-     <a href="indexlogin.php">your nameapp</a>
+     <a href="indexlogin.php">Pantalla principal</a>
      </header>
 
 
