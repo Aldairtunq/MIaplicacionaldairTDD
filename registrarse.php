@@ -33,12 +33,13 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
   <?php if(!empty($message)): ?>
     <p> <?= $message ?></p>
-  <?php endif; ?>
+    <?php endif; ?>
 
   <h1>REGISTRARSE</h1>
+
   <span> <a href="loguearse.php">Iniciar secion</a></span>
 
-  <form action="signup.php" method="POST">
+  <form action="registrarse.php" method="POST">
     <input name="email" type="text" placeholder="ingresar su email">
     <input name="password" type="password" placeholder="ingresar la contraseña">
   
