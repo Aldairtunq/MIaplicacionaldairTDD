@@ -34,7 +34,7 @@ input[type="submit"]:hover {
 
 /* Header */
 header {
-  border-bottom: 2px solid rgb(93, 91, 91);
+  border-bottom: 2px solid #eee;
   padding: 20px 0;
   margin-bottom: 10px;
   width: 100%;

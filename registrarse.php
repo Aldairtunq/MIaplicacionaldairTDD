@@ -1,9 +1,7 @@
   
-  <?php> 
+ <?php
+
 require 'conexiologin.php';
-
-session_start();
-
 
 $message = '';
 
@@ -20,41 +18,32 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $message = 'Lo sentimos, debe haber habido un problema al crear su cuenta';
   }
 }
-
 ?>
-
-  
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+  <meta charset="utf-8">
+  <title>SignUp</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-    <meta charset="utf-8">
-    <title>SignUp</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
+  <?php require 'otroscodigos/header.php' ?>
 
-  <body>
+  <?php if(!empty($message)): ?>
+    <p> <?= $message ?></p>
+  <?php endif; ?>
 
+  <h1>REGISTRARSE</h1>
+  <span> <a href="loguearse.php">Iniciar secion</a></span>
 
+  <form action="signup.php" method="POST">
+    <input name="email" type="text" placeholder="ingresar su email">
+    <input name="password" type="password" placeholder="ingresar la contraseña">
+  
+    <input type="submit" value="Enviar">
+  </form>
 
-    <?php require 'otroscodigos/header.php' ?>
-
-    <?php if(!empty($message)): ?>
-      <p> <?= $message ?></p>
-    <?php endif; ?>
-     
-
-
-
-    <h1>Inscribirse</h1>
-    <span>or <a href="login.php">Login</a></span>
-    <form action="signup.php" method="POST">
-      <input name="email" type="text" placeholder="Introduce tu correo electrónico">
-      <input name="password" type="password" placeholder="ingrese su contraseña">
-      <input name="confirm_password" type="password" placeholder="Confirmar contraseña">
-      <input type="submit" value="enviar">
-    </form>
-
-  </body>
+</body>
 </html>

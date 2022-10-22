@@ -1,16 +1,14 @@
-<?php
+<<?php
 
-$server = 'localhost3306';
+$server = 'localhost:3306';
 $username = 'root';
 $password = '';
-$database = 'databasealdair';
+$database = 'basededatosultimo';
 
 try {
-    $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
-  } catch (PDOException $e) {
-    die('Connection Failed: ' . $e->getMessage());
-  }
-
-
+  $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
+} catch (PDOException $e) {
+  die('Connection Failed: ' . $e->getMessage());
+}
 
 ?>

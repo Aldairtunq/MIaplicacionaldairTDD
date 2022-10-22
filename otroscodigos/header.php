@@ -1,4 +1,3 @@
-<header> 
-
-<a href="indexlogin.php">Regresar Ala Pantalla principal</a>
-     </header>
+<header>
+  <a href="/loguearse.php">al principio</a>
+</header>
