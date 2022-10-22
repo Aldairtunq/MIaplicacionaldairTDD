@@ -1,5 +1,6 @@
 
 <?php
+
   session_start();
 
   require 'conexiologin.php';
@@ -31,11 +32,12 @@
 
     <?php if(!empty($user)): ?>
       <br> Welcome. <?= $user['email']; ?>
-      <br>You are Successfully Logged In
+      <br> tu estas satisfactoriamente logueado
       <a href="desloguear.php">
-        Logout
+        cerrar sesion
       </a>
     <?php else: ?>
+
       <h1>POR FAVOR INGRESA O REGISTRATE</h1>
 
       <a href="loguearse.php">iniciar sesion</a> or

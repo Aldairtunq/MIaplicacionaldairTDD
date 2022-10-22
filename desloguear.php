@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: /php-loguearse');
+  header('Location: /MiaplicacionaldairTDD/indexlogin.php');
 ?>

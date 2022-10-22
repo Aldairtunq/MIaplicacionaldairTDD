@@ -3,7 +3,7 @@
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: /php.loguearse');
+    header('Location: /loguerarse.php');
   }
   require 'conexiologin.php';
 
@@ -17,9 +17,9 @@
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: /php.loguearse");
+      header("Location: /loguearse.php");
     } else {
-      $message = 'Slo siento, esas credenciales no coinciden';
+      $message = 'lo siento, esas credenciales no coinciden';
     }
   }
 
@@ -36,14 +36,15 @@
   <body>
     <?php require 'otroscodigos/header.php' ?>
 
+    <h1>INICIAR SESION</h1>
+    <span> or <a href="registrarse.php">Regresar a Registrarse</a></span>
+
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>INICIAR SESION</h1>
-    <span> <a href="registrarse.php">Regresar a Registrarse</a></span>
-
-    <form action="login.php" method="POST">
+    
+    <form action="loguearse.php" method="POST">
       <input name="email" type="text" placeholder="Ingrese su email.com">
       <input name="password" type="password" placeholder="Ingrese su contraseña">
       <input type="submit" value="enviar">
