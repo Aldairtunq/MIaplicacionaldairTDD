@@ -19,17 +19,20 @@
         
     </head>
     <body>
+
+    <?php require 'C:\xampp\htdocs\MIaplicacionaldairTDD/otroscodigos/header.php' ?>
+
             <div class="container mt-5">
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                            <h1>Ingrese datos</h1>
+                            <h1>INGRESE DATOS DEL ESTUDIANTE</h1>
                                 <form action="insertar.php" method="POST">
 
-                                    <input type="text" class="form-control mb-3" name="cod_estudiante" placeholder="cod estudiante">
-                                    <input type="text" class="form-control mb-3" name="dni" placeholder="Dni">
-                                    <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres">
-                                    <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos">
+                                    <input type="text" class="form-control mb-3" name="cod_estudiante" placeholder="ingrese en codigo">
+                                    <input type="text" class="form-control mb-3" name="dni" placeholder="DNI">
+                                    <input type="text" class="form-control mb-3" name="nombres" placeholder="Ingrese el Nombre">
+                                    <input type="text" class="form-control mb-3" name="apellidos" placeholder="Ingrese los Apellidos">
                                     
                                     <input type="submit" class="btn btn-primary">
                                 </form>
@@ -39,10 +42,10 @@
                             <table class="table" >
                                 <thead class="table-success table-striped" >
                                     <tr>
-                                        <th>Codigo</th>
-                                        <th>Dni</th>
-                                        <th>Nombres</th>
-                                        <th>pellidos</th>
+                                        <th>CODIGO</th>
+                                        <th>DNI</th>
+                                        <th>NOMBRE</th>
+                                        <th>APELLIDOS</th>
                                         <th></th>
                                         <th></th>
                                     </tr>
