@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+    
     <?php require 'otroscodigos/header.php' ?>
 
     <?php if(!empty($user)): ?>

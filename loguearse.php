@@ -3,7 +3,7 @@
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: /loguerarse.php');
+    header('Location: /MIaplicacionaldairTDD\pantallalogin/alumno.php');
   }
   require 'conexiologin.php';
 
@@ -17,7 +17,7 @@
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: /loguearse.php");
+      header("Location: /MIaplicacionaldairTDD\pantallalogin/alumno.php");
     } else {
       $message = 'lo siento, esas credenciales no coinciden';
     }

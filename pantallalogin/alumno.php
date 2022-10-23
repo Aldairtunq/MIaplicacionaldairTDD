@@ -20,7 +20,7 @@
     </head>
     <body>
 
-    <?php require 'C:\xampp\htdocs\MIaplicacionaldairTDD/otroscodigos/header.php' ?>
+     <tr> <?php require 'C:\xampp\htdocs\MIaplicacionaldairTDD/otroscodigos/header.php' ?> </tr>
 
             <div class="container mt-5">
                     <div class="row"> 
@@ -42,7 +42,7 @@
                             <table class="table" >
                                 <thead class="table-success table-striped" >
                                     <tr>
-                                        <th>CODIGO</th>
+                                       <th> <center> CODIGO</th>
                                         <th>DNI</th>
                                         <th>NOMBRE</th>
                                         <th>APELLIDOS</th>
@@ -67,9 +67,14 @@
                                             }
                                         ?>
                                 </tbody>
+                               
                             </table>
                         </div>
+                      
                     </div>  
+                    <button class:"btn btn-primary btn-lg" >  <a href=" desloguear.php">  CERRAR SESION </a>  </button>
+
             </div>
+            
     </body>
 </html>
