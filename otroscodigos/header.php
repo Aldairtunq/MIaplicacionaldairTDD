@@ -1,4 +1,4 @@
 
 <header>
-  <a href="/MiaplicacionaldairTDD/indexlogin.php">al principio</a>
+  <a href="/MiaplicacionaldairTDD/indexlogin.php">REGRESAR ALA PANTALLA PRINCIPAL</a>
 </header>
