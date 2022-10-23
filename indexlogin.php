@@ -26,9 +26,10 @@
     <title>Welcome to you WebApp</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    
   </head>
   <body>
-    
+
     <?php require 'otroscodigos/header.php' ?>
 
     <?php if(!empty($user)): ?>
@@ -41,8 +42,8 @@
 
       <h1>POR FAVOR INGRESA O REGISTRATE</h1>
 
-      <a href="loguearse.php">iniciar sesion</a> or
-      <a href="registrarse.php">registrse</a>
+     <button> <a href="loguearse.php">INICIAR SECION </a> </button> <---------->          
+     <button> <a href="registrarse.php">REGISTRARSE</a> </button>
     <?php endif; ?>
   </body>
 </html>

@@ -34,7 +34,7 @@
                                     <input type="text" class="form-control mb-3" name="nombres" placeholder="Ingrese el Nombre">
                                     <input type="text" class="form-control mb-3" name="apellidos" placeholder="Ingrese los Apellidos">
                                     
-                                    <input type="submit" class="btn btn-primary">
+                                    <input type="submit" class="btn btn-primary"> <a href="\MIaplicacionaldairTDD\indexlogin.php"> ----> Salir </a>  </button>
                                 </form>
                         </div>
 
@@ -72,8 +72,7 @@
                         </div>
                       
                     </div>  
-                    <button class:"btn btn-primary btn-lg" >  <a href=" desloguear.php">  CERRAR SESION </a>  </button>
-
+                 
             </div>
             
     </body>

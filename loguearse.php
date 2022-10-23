@@ -37,7 +37,7 @@
     <?php require 'otroscodigos/header.php' ?>
 
     <h1>INICIAR SESION</h1>
-    <span> or <a href="registrarse.php">Regresar a Registrarse</a></span>
+    <span> <a href="registrarse.php">Regresar a Registrarse</a></span>
 
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
