@@ -31,7 +31,7 @@
     <?php require 'otroscodigos/header.php' ?>
 
     <?php if(!empty($user)): ?>
-      <br> Welcome. <?= $user['email']; ?>
+      <br> BIENVENIDO . <?= $user['email']; ?>
       <br> tu estas satisfactoriamente logueado
       <a href="desloguear.php">
         cerrar sesion
